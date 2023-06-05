@@ -1,1 +1,6 @@
-// rmr
+/* clase video*/
+
+class video 
+{
+
+};
