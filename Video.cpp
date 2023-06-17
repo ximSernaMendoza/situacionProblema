@@ -10,22 +10,22 @@ void Video::setCalificion(int calificacion)
 
 std::string Video::getid()
 {
-    return std::string();
+    return id;
 }
 
 std::string Video::getNombre()
 {
-    return std::string();
+    return nombre;
 }
 
 std::string Video::getGenero()
 {
-    return std::string();
+    return genero;
 }
 
 int Video::getCalificacion()
 {
-    return 0;
+    return duracion;
 }
 
 int Video::getDuracion()
@@ -33,7 +33,7 @@ int Video::getDuracion()
     return 0;
 }
 
-std::string Video::setfechaEstreno()
+std::string Video::getfechaEstreno()
 {
-    return std::string();
+    return fechaEstreno;
 }
