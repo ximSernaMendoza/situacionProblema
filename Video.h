@@ -27,7 +27,7 @@ class Video
     std::string getGenero();
     int getCalificacion();
     int getDuracion();
-    std::string setfechaEstreno();
+    std::string getfechaEstreno();
 
     virtual void muestrainfo()= 0;
 
