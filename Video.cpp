@@ -1,9 +1,9 @@
 #include "Video.h"
 
 Video::Video(std::string id, std::string nombre, std::string genero, int calificacion, int duracion, std::string fechaEstreno) : id(id), nombre(nombre), genero(genero), calificacion(calificacion), duracion(duracion), fechaEstreno(fechaEstreno){}
+  // Constructor de la clase Video que inicializa los miembros de datos
 
-
-void Video::setCalificion(int calificacion)
+void Video::setCalificacion(int calificacion)
 {
     this->calificacion = calificacion;
 }
@@ -25,12 +25,12 @@ std::string Video::getGenero()
 
 int Video::getCalificacion()
 {
-    return duracion;
+    return calificacion;
 }
 
 int Video::getDuracion()
 {
-    return 0;
+    return duracion;
 }
 
 std::string Video::getfechaEstreno()
